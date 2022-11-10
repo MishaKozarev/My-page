@@ -10,103 +10,105 @@
   </head>
 
   <body>
+    <header>
+      <div class="contents">
+        <nav>
+          <ul class="list-activ">
+            <li class="activ"><a href="#About Myself" class="link">About Myself</a></li>
+            <li class="activ"><a href="#Contacts" class="link">Contacts</a></li>
+            <li class="activ"><a href="#Skills" class="link">Skills</a></li>
+            <li class="activ"><a href="#Code" class="link">Code</a></li>
+            <li class="activ"><a href="#Education" class="link">Education</a></li>
+            <li class="activ"><a href="#English" class="link">English</a></li>
+          </ul>
+        </nav>
+      </div>   
+    </header>
     
+    <main>
     <div class="container">
-      
-      <div class="info">
+    
+      <section class="info">
         <img src="avatar.jpg"  alt="Avatar" class="avatar">
-          
         <div class="info-text">
-          <h1>Козарев Михаил Олегович</h1>
-            <p>11.03.1986 г.</p>
-            <p>г.Могилев</p>
-
-            <h4>Мои социальные сети</h4> 
-              <a href="http://instagram.com/mishakozarev" target="_blank">instagram</a>
-              |
-              <a href="https://vk.com/id9177284" target="_blank">vk</a>   
+          <h1>KOZAREV MIKHAIL</h1>
+            <p>BIGINER FRONT-END DEVELOPER</p> 
         </div>
+      </section>    
 
-      </div>    
+      <section class="card bg-green" id="About Myself">
+        <h2>About Myself</h2>
+        <p>I am a beginner web developer</p>
+      </section>
      
-      <div class="card bg-yelloy">
-        <h2>Курсы</h2>
-        <table class="table">
-        
-          <tr>
-            <td>Stepik</td>
-            <td>HTML,CSS</td>
-            <td>2022 г. - н.в.</td>
-          </tr>
-          <tr>
-            <td>RS School</td>
-            <td>JavaScript</td>
-            <td>2022 г. - н.в.</td>
-          </tr>
-          
- 
-          <!-- <tr> 
-            <td>Youtube</td>
-            <td>Студент HTML,CSS,JavaScript</td>
-            <td>2022 г. - н.в.</td>
-          </tr> -->
-
-        </table>
-      </div>
-
-      <div class="card bg-red">
-        <h2>Обучение Youtube</h2>
-        <ul class="learn">
-          <li><a href="https://www.youtube.com/watch?v=DOEtVdkKwcU">HTML - основы для начинающих</a></li>
-          <li><a href="https://www.youtube.com/watch?v=SpCUuyZZTp8&t=4180s">SCC - основы для начинающих</a></li>
-          <li><a href="https://www.youtube.com/watch?v=Bluxbh9CaQ0&t=376s">JavaScript - основы для начинающих</a></li> 
+      <section class="card bg-yelloy" id="Contacts">
+        <h2>Contacts</h2>
+        <ul class="list">
+          <li>Location: Mogilev, Republic of Belarus</li>
+          <li>Phone: +375(29)246-66-33</li>
+          <li>Email: mishaaaaa1986@mail.ru</li>
+          <li>GitHub: MishaKozarev</li>
+          <li>Discord: MishaKozarev#1589</li>
+          <li>Telegram: @MishaKozarev</li>
         </ul>
-      </div>
+      </section>
 
-      <div class="card bg-green">
-        <h2>Мои хобби</h2>
-        <ol class="list">
-          <li>Плавание</li>
-          <li>Футбол</li>
-          <li>Бег</li>
-        </ol>
-      </div>
+      <section class="card bg-red" id="Skills">
+        <h2>Skills</h2>
+        <ul class="learn">
+          <li>HTML</li>
+          <li>SCC</li>
+          <li>JavaScript</li> 
+          <li>Git/GitHub</li>
+        </ul>
+      </section>
 
- 
-      <div class="contact">
-        <h2>Cвязаться со мной</h2>
-          <form action="/">
-            <div class="row">
+      <section class="card bg-green" id="Code">
+        <h2>Code</h2>
+        <code>
+          <pre>
+          function showMessage() {
+            alert('I love Java Script' );
+          }
+          </pre>
+        </code> 
+      </section>
 
-              <div class="form-group">
-                <label for="Name">Ваше имя:</label>
-                <input type="text" id="Name"  
-                placeholder="Иван Иванов">
-              </div>
+      <section class="card bg-yelloy" id="Education">
+        <h2>Education</h2>
+        <ul class="list">
+          <li>2015 г. - Belarusian-Russian University:Methods and devices for quality control and diagnostics of the state of objects</li>
+          <li>2017 г. - Institute for Advanced Studies and Retraining Belarusian-Russian University:Industrial and civil construction</li>
+          <li>2020 г. - Branch of the Belarusian National Technical University “Institute for the search and retraining of personnel in new 
+              areas of development of engineering, technology and economics”:Diagnostics and maintenance of power equipment of organizations</li>
+          <li>2022 г. - The Rolling Scopes School - JS / FRONT-END. STAGE#0</li>
+      </section>
 
-              <div class="form-group">
-                <label for="email">Ваш e-male:</label>
-                <input type="email" id="email"  
-                placeholder="mail.ru">
-              </div>
+      <section class="card bg-red" id="Project">
+        <h2>Project</h2>
+        <ul class="learn">
+          <li>CV#1. Markdown & Git</li>
+          <li>CV#2. HTML, CSS & Git Basics</li>
+        </ul>
+      </section>
 
-            </div>
-
-              <div class="form-group">
-                <label for="text">Ваше сообщение:</label>
-                <textarea id="text" rows="2" cols="15"></textarea> 
-              </div>
-              <input class="btn" type="submit" value="Связаться!">
-          </form>
-      </div>
-
-      <div class="position">
-        <div class="box"></div>
-      </div>
-
-      <div style="margin-bottom: 500px"></div>
+      <section class="card bg-green" id="English">
+        <h2>English</h2>
+        <p>А1 - Beginner </p>
+      </section>
 
     </div>
+    </main>
+
+    <footer>
+      <div class="contents-footer">
+          <ul class="footer">
+              <li><a href="https://github.com/MishaKozarev" class="github link">MishaKozarev</a></li>
+              <li>2022</li>
+              <li><a href="https://rs.school/js/"><img src="rs_school_js.svg" width="150 px" height="150 px" margin="0 px"></a></li>
+          </ul>
+      </div>
+  </footer>
 
   </body> 
 </html>
