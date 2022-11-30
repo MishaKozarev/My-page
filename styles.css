@@ -134,14 +134,14 @@ a:visited{
     gap: 20px;
 }
 
-.footer{
-    /* display: flex; */
-    /* justify-content: space-around; */
-    /* align-items: flex-end; */
-    list-style: none; /*убирает <ul>
-    /* padding: 15 px 50 px; */
-    /* flex-wrap: wrap; */
-    /* gap: 20px;    */
+/* .footer{
+    display: flex; 
+    justify-content: space-around;
+    align-items: flex-end;
+    list-style: none;
+    padding: 15 px 50 px;
+     flex-wrap: wrap; 
+     gap: 20px;   
 }
 .contents-footer{
     max-width: 1500px;  
@@ -151,4 +151,20 @@ a:visited{
     padding: 15px 20px; 
     justify-content: space-between;  
     height: 50 px;
+} */
+.footer{
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contents_footer{
+    width: 100%;
+    display: flex;
+    background: #fff9dc;
+    justify-content: space-between;  
+    align-items: center;
+    padding: 0 40px;
+    border-radius: 20px;
+     
 }
